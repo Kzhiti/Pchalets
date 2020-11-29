@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e532023-311a-4ba3-9e03-5883b8be3990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/oceanwp/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606645808080</updated>
-      <workItem from="1606645809422" duration="2349000" />
+      <workItem from="1606645809422" duration="2642000" />
     </task>
     <servers />
   </component>
