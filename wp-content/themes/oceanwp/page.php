@@ -18,7 +18,6 @@ get_header(); ?>
 		<?php do_action( 'ocean_before_primary' ); ?>
 
 		<div id="primary" class="content-area clr">
-
 			<?php do_action( 'ocean_before_content' ); ?>
 
 			<div id="content" class="site-content clr">
