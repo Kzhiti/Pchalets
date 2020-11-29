@@ -1,0 +1,159 @@
+/*
+Theme Name: Theme enfant
+Description: Theme enfant OceanWP
+Author: KylianZH
+Template: oceanwp
+*/
+
+@import url("../oceanwp/style.css");
+
+body {
+	position: relative;
+}
+
+h1.page-title {
+	display: none;
+}
+
+span#select2-redirect_view_sort-5s-container {
+	display: none;
+}
+
+span.select2-selection.select2-selection--single {
+	display: none;
+}
+
+div.wp-block-buttons.aligncenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wp-block-button > a:hover {
+	transition: all ease-in-out 600ms;
+}
+.wp-block-button:nth-child(0n+2) > a:hover {
+	color: #ffc700;
+}
+
+.es-listing .es-property-inner {
+	border: none;
+	margin: 100px 0 0!important;
+	
+}
+
+div#footer-bottom.clr {
+	bottom:0;
+	position:fixed;
+	width:100%;
+	height:50px;
+}
+
+body.custom-background div.site {
+	max-width: unset;
+}
+
+.page-header {
+	padding: 0;
+}
+
+body {
+	position: relative;
+	height: 100vh;
+	margin-top: 32px;
+	padding-bottom: 50px;
+}
+
+#wpadminbar {
+	position: fixed;
+	top: 0;
+}
+
+html {
+	margin-top: 0px !important;
+}
+.group-custom .wp-block-group__inner-container {
+	height: 100%;
+	display: flex;
+}
+.group-custom {
+	height: calc(100vh - 50px);
+	height: 100vh;
+}
+
+.group-custom:nth-child(0n+2) {
+	background: white;
+}
+
+.group-custom:nth-child(0n+2) div {
+	padding: 2rem;
+	display: flex;
+	height: 100%;
+	width: 100%;
+
+}
+.group-custom:nth-child(0n+2) p {
+	text-align: center;
+	width: 100%;
+}
+
+.group-custom:nth-child(0n+2) a {
+	color: #FFC700;
+}
+
+.group-custom:nth-child(0n+2) a:hover {
+	color: black;
+}
+
+.es-listing.es-layout-list {
+	margin-bottom: 50px;
+}
+
+.page-header-title {
+	padding: 1.5rem;
+}
+
+@media screen and (min-width: 800px) { 
+	.contact {
+		padding-left: 150px;
+	}
+	.form_contact {
+		padding-left: 150px;
+		padding-right: 400px;
+	}
+	.group-custom:nth-child(0n+2) p {
+		padding-top: 200px;
+	}
+}
+
+@media screen and (min-width: 760px) { 
+	.group-custom:nth-child(0n+2) p {
+		padding-top: 100px;
+	}
+}
+
+@media screen and (min-width: 1920px) { 
+	.group-custom:nth-child(0n+2) p {
+		padding-top: 300px;
+	}
+}
+
+@media screen and (min-width: 2500px) { 
+	.group-custom:nth-child(0n+2) p {
+		padding-top: 200px;
+	}
+}
+
+@media screen and (max-width: 425px) { 
+	.group-custom:nth-child(0n+2) p {
+		padding-top: 150px;
+		position: absolute;	
+		max-width: 90%;
+	}
+}
+
+.title_des {
+	padding-top: 20px;
+	width:100%;
+	text-align: center;
+}
